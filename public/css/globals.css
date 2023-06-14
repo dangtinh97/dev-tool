@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-color: #E8E8E8
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+
+html{
+    background-color: var(--main-color);
+}
+
+.ant-btn-primary{
+    background-color: #1677ff;
+}
